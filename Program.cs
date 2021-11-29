@@ -66,11 +66,11 @@ namespace ConsoleApp16._1
 
     public class Goods
     {
-        [JsonPropertyName("Наименование товара")]
+        //[JsonPropertyName("Наименование товара")]
         public string Name { get; set; }
-        [JsonPropertyName("Код (номер) товара")]
+        //[JsonPropertyName("Код (номер) товара")]
         public int Code { get; set; }
-        [JsonPropertyName("Стоимость товара")]
+        //[JsonPropertyName("Стоимость товара")]
         public double Price { get; set; }
 
         public Goods(string Name, int Code, double Price)
